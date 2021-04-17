@@ -249,7 +249,7 @@ p.I{
     grid-column: 1 / 5;
     grid-row: 1 / 7;
     border: 2px solid brown;
-    margin-left: 4rem; margin-top: 2rem;
+    margin-left: 4rem; margin-top: 5rem;
     background-image: url(../Imagenes/Cajones\ apilables.jpg);
     transition: all 2s;
 }
@@ -266,7 +266,7 @@ transform: rotate(360deg);
     grid-column: 6 / 11;
     grid-row: 1 / 10;
     border: 2px solid brown;
-    margin-top: 2rem; margin-left: 0rem;
+    margin-top: 77px;  margin-bottom: 70px; margin-left: 0rem; 
     background-image: url("../Imagenes/Cuna\ rebatible\ con\ cajon\ 1.jpg");
 }
 .comentario4{
@@ -281,6 +281,7 @@ transform: rotate(360deg);
 }
 .comentario5{
     display: grid;
+    margin-top: -50px;
     border: 2px solid brown;
     grid-column: 6 / 11;
     grid-row: 11 / 13;
@@ -326,6 +327,7 @@ ul {
 nav.contactos{
     background-image: url(../Imagenes/cbarradenav.jpg); 
     display: flex;
+    z-index: 2;
     flex-direction:center;
     justify-content:center;
     position:sticky; top: 0;
@@ -467,6 +469,14 @@ section{
 }
 .logo img{
     width: 400px;
-
+}
+.row .col-sm{
+    margin-top: 50px; margin-bottom: 10px;     
+}
+.fondo{
+    background-image: url("../Imagenes/fondoformulario.jpg");
+}
+.d-block w-100{
+    width: 500px;
 }
 
