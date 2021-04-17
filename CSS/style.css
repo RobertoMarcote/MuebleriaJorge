@@ -13,6 +13,7 @@
     background-size: cover;
     min-height: 100%;
     text-align: center;
+
     color: brown;
     margin-bottom: -1px;
     font-size: 69px; 
@@ -479,4 +480,12 @@ section{
 .d-block w-100{
     width: 500px;
 }
-
+.slide{
+    margin-top: 10px;
+}
+.slide img{
+    object-fit: scale-down;
+    height: 75vh;
+    width: 190%;
+    background-color: rgb(85, 45, 45);
+}
