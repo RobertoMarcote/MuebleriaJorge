@@ -486,6 +486,6 @@ section{
 .slide img{
     object-fit: scale-down;
     height: 75vh;
-    width: 190%;
+    width: 100%;
     background-color: rgb(85, 45, 45);
 }
