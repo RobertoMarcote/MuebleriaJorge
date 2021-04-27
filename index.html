@@ -4,49 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="shortcut icon" href="/Imagenes/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
-      <title>Muebleria Jorge</title> 
+    <title>Muebleria Jorge</title> 
 </head>
 <body>
-  <div class="container">
-      <div class="row"></div>
-        <h1>Muebleria Jorge</h1>  
-        <p>Una empresa dedicada al servicio de nuestros clientes</p>
-  </div>
-        <div class="container_1">
-        <div class="row"></div>
-            <div class="I">
-                <p class="II"> 
-                !Navega por nuestra web!<img class="III" src="/Imagenes/Flecha abajo.jpg" align="rigth">
-                </p>
+    <div class="hola"><!-- responsive con @media -->
+        <div class="hola1">
+            <h1 class="fuente">Muebleria Jorge</h1>  
+        </div>
+    </div>
+    <div class="container__0"> <!--bootstrap y @media-->   
+        <div class="row__1">
+            <p>Una empresa dedicada al servicio de nuestros clientes</p>
+        </div>
+    </div>
+    <div class="container__1"> <!--con bootstrap-->
+        <div class="row__2"></div>
+            <div class="I"> 
+                <p class="II">!Navega por nuestra web!<img class="III" src="/Imagenes/Flecha abajo.jpg" align="rigth"></p>
             </div>
         </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img class="navbar-brand" src="/Imagenes/Logo.png" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Pages/Nuestra galeria.html">Nuestra Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Pages/Preguntasfrecuentes.html">Preguntas frecuentes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Pages/quienessomos.html">Quienes somos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Pages/Contactos.html">Contactos</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/Nuestra galeria.html">Nuestra Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/Preguntasfrecuentes.html">Preguntas frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/quienessomos.html">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Pages/Contactos.html">Contactos</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
             Precio, calidad y buen servicio
             </span>
         </div>
@@ -72,24 +76,26 @@
         </div>
     </section>
     <section class="container">
-        <div class="row"></div>
+        <div class="row">
             <div class="caja1">
                 <p>Nuestra fabrica se enuentra en San Fernandoa tres cuadras de la ruta 197, contando con gran stock de madera, como asi nuestros empleados se encuentran
                 capacitados para la optima fabricación de los productos. De esta manera no dependemos de terceros, nos destacamos por la puntualidad en la 
                 entrega, la optima relacion precio-calidad. y la satisfacción final de los clientes<p>
             </div>
-        </div>
+        <div class="row__4">
             <div class="caja1">
-            <p>Nos encargamos del diseño y amoblamiento de mesas, sillas, juegos para niños, cunas en todos sus estilos, cama funcional, etc... Respondemos
-            y asesoramos todas las inquietudes y necesidades de nuestros clientes FABRICAMOS A MEDIDA Y DISEÑOS ESPECIALES.<p>
-        </div>
+                <p>Nos encargamos del diseño y amoblamiento de mesas, sillas, juegos para niños, cunas en todos sus estilos, cama funcional, etc... Respondemos
+                y asesoramos todas las inquietudes y necesidades de nuestros clientes FABRICAMOS A MEDIDA Y DISEÑOS ESPECIALES.<p>
+            </div>
+        </div>    
     </section>
     <div class="container__2">
-        <div class="row"></div>
+        <div class="row__3">
             <span class="badge badge-pill badge-warning">!Volver al inicio!</span>
-            <a href=""><img class="inicio1_2" src="/Imagenes/Inicio.jpg" alt="Flecha-abajo" border="0"></a>
+            <a href=""><img class="inicio1_2" src="/Imagenes/ubicacion.jpg" alt="Flecha-abajo" border="0"></a>
+            </div>
     </div>
-    <footer>
+    <footer> <!--Bootstrap y media@-->
         <div class="container-principal">    
         <div class="container-body">   
             <div class="column1"> 
@@ -134,8 +140,8 @@
             </div>
         </div>
     </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
  
