@@ -13,7 +13,6 @@
     background-size:cover;
     width: 100%;
     height: 120px;
-    /* margin-left: 6%; */
 }
 @media screen and (min-width: 768px){
     .hola .hola1{
@@ -159,6 +158,11 @@ h1.fuente{
         margin-left: -30px;
     }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    span .navbar-text{
+        margin-left: 30px;
+    }
+}
 .row__3 span{
     margin-left: 520px;
     margin-top: 20px;
@@ -249,7 +253,7 @@ a.a1{
     width: 320px;
     margin-top: 1rem;
     background-color: #f5d63a;
-    background-image: linear-gradient(315deg, #c7ab1b 0%, #b72a03 74%);    color: brown;
+    background-image: linear-gradient(315deg, #c7ab1b 0%, #7b6e44 74%);    color: brown;
     text-align: center;
     font-family:initial;
     font-size: 40px;
@@ -499,7 +503,6 @@ ul {
 nav.contactos{
     background-image: url(../Imagenes/cbarradenav.jpg); 
     display: flex;
-    z-index: 2;
     flex-direction:center;
     justify-content:center;
     position:sticky; top: 0;
@@ -569,8 +572,8 @@ h3.aa{
     font-size:30px;
 }
 footer{
-    background-color: #f9ea8f;
-    background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);    width: 100%;
+    background-size: cover;
+    background-image:url(https://i.pinimg.com/originals/17/9a/ac/179aace94f574635f339e44ffe5fc4cb.jpg);
     font-family: sans-serif;
     margin-top: 15px;
 }
@@ -609,7 +612,7 @@ footer{
 }
 .column1 p{
     font-size: 15px;
-    color: rgb(103, 100, 136);
+    color: rgb(70, 67, 104);
     margin-top: 20px;
     text-align: center;
 }
@@ -714,13 +717,44 @@ img.navbar-brand{
         margin-top: -7px;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #navbarNav-text{
+       z-index: 2;
+        background-image: url(https://www.gaulan.es/552871-home_default/porto-mendes-679587.jpg);
+        background-size: cover ;
+        margin-left: 355px;
+        padding-top: -10px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    div.navbar-collapse{
+       z-index: 2;
+        background-image: url(https://www.gaulan.es/552871-home_default/porto-mendes-679587.jpg);
+        background-size: cover;
+        margin-left: 12px;
+        width: 20%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    ul.navbar-nav{
+       margin-left: 100px;
+    }
+}
 a.nav-link{
     font-family:'Zen Dots';
     font-size: 30px;
 }
-@media screen and (min-width: 768px) {
-    .nav-link{
-        font-size: 15px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    a.nav-link{
+        margin-left: 163px;
+        font-size: 23px;
+        color: blue;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    a.nav-link{
+        font-size: 21px;
+        color: blue;
     }
 }
 nav.navbar{
@@ -732,11 +766,16 @@ nav.navbar{
 .navbar-text{
     font-family:'Zen Dots';
     font-size: 25px;
-    margin-top: -10px;
+    margin-left: 79px;
     text-align: center;
     text-shadow: 2px -2px 1px blue;
 }  
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    span.navbar-text{
+        margin-left: 1px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .navbar-text{
         font-size: 18px;
     }
