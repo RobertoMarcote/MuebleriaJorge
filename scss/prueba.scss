@@ -1,19 +1,20 @@
 *{
-    /* padding: 0;
-    margin: 0; */
-    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
 }
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Grenze:ital@1&display=swap');
 @import "_colors.scss";
+@import "_font.scss";
 
 .hola .hola1{
     background-image: url(/Imagenes/index.jpg);
     background-size:cover;
     width: 100%;
-    height: 120px;
+    height: 140px;
 }
 @media screen and (min-width: 768px){
     .hola .hola1{
@@ -32,14 +33,9 @@
     }
 }
 h1.fuente{
-    font-style: italic;
     text-align:center;
-    color: rgb(171, 146, 62);
     margin-bottom: -1px;
     padding-top: 10px;
-    font-size: 79px; 
-    text-shadow: white;
-    -webkit-text-stroke: 2px rgb(56, 49, 49);
 }
 @media screen and (min-width: 768px){
     h1.fuente{
@@ -49,7 +45,6 @@ h1.fuente{
 @media screen and (min-width: 320px) and (max-width: 767px){
     h1.fuente{
         text-align:center;
-        font-size: 45px;
         padding-top: 0px;
     }
 }
@@ -59,8 +54,6 @@ h1.fuente{
     height: 80px; 
     text-align: center;
     margin-top: -15px;
-    font-size: 39px; -webkit-text-stroke: 1px black;
-    font-family: 'Grenze', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 @media screen and (min-width: 768px) {
     .container__0{
@@ -69,16 +62,12 @@ h1.fuente{
 }
 @media screen and (min-width: 768px){
     .row__1 p{
-        font-family: Arial, Helvetica, sans-serif;
         padding-top: 20px;
-        font-size: 39px;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
     .row__1 p{
-        font-family: Arial, Helvetica, sans-serif;
         padding-top: 15px;
-        font-size: 19px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -89,7 +78,6 @@ h1.fuente{
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .row__3 span.badge{
         margin-left: 33px;
-        font-size: 30px;
         width: 80%;
     }
 }
@@ -118,7 +106,6 @@ h1.fuente{
 }
 @media screen and (min-width: 768px) {
     div.column1 h1{
-        font-size: 22px;
         text-align: center;
     }
 }
@@ -143,8 +130,8 @@ h1.fuente{
 }
 @media screen and (min-width: 768px) {
     .lavel{
-        font-size: 14px;
         margin-left: 1px; margin-right: 0px;
+
     }
 }
 @media screen and (min-width: 768px) {
@@ -172,31 +159,20 @@ h1.fuente{
     margin-left: 289px;
 }
 li{
-    color: rgb(42, 18, 133);
     line-height: 31px;
     font-weight: 901;
     }
-a{
-    color: rgb(7, 70, 70);
-}
 h2{
-    color:darkviolet;
     font-size: 55px;
     margin-left: 37%; margin-top: 1rem;
 }
 a.aa{
-    color: red;
-    margin: 20px;
     font-size: 32px;
     margin-bottom: 32px; margin-left: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 a.a1{
     margin: 10% 0px 0px 43%;
-    color: blueviolet;
-    font-size: 30px;
     text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     animation-delay: 5s;
     animation-duration: 2s;
     animation-name: aparecer;
@@ -212,11 +188,7 @@ a.a1{
 }
 .a2{
     background-color: gray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;
     background-color: lightblue;
-}
-.title{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
 }
 .ul{
     list-style-type: decimal-leading-zero;
@@ -241,7 +213,6 @@ a.a1{
     display: grid;
     grid-column: 7 / 12;
     grid-row: 1 / 3;
-    border: springgreen solid 3px;
     padding: 1rem 1rem 1rem 1rem;
     margin-top: 3rem;
     justify-content: center;
@@ -253,12 +224,7 @@ a.a1{
 .badge{
     width: 320px;
     margin-top: 1rem;
-    background-color: #f5d63a;
-    background-image: linear-gradient(315deg, #c7ab1b 0%, #7b6e44 74%);    color: brown;
     text-align: center;
-    font-family:initial;
-    font-size: 40px;
-    color: #544a7d;
     display: grid;
     grid-column: 2 / 6;
     grid-row: 1 / 3;
@@ -279,13 +245,9 @@ div .caja{
     background-size: cover;
     padding: 5px 5px 1px 5px;
     margin: 45px 0px 0px 4px;
-    border: 8px groove brown;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 1000;
-    font-size: 20px;
 }
 $fondo-claro: true;
-    div .caja {
+    div .caja { /*aplicado en index - 1er cuadro*/
         @if $fondo-claro == true {
             background-color: rgb(237, 228, 163);
         } @else {
@@ -314,37 +276,26 @@ div.caja1{
     margin: 5px;
     /* height: 30vh; */
     margin-top: 1rem;
-    border: 10px double brown;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-weight: 901;
-    color: black;
-    text-shadow:lightblue;
 }
 .caja1 p{
     margin-left: 2rem;
     text-align-last: center;
-    font-size: 20px;
 }
 
-div.caja__1{
+div.caja__1{ /*aplicado en index. cuadro de texto 2 y 3*/
     @extend .caja1;
 }
 .caja__1 p{
     margin-left: 2rem;
     text-align-last: center;
-    font-size: 20px;
 }
 .submenu{
-    color: rgb(108, 253, 59);  font-family: 'Akaya Telivigala', cursive;
     font-size: 24px; display: inline; margin: 40; padding: 10px;
     text-align: center; font-weight: normal;
     background-image: url("http://www.elempresario.mx/sites/default/files/imagecache/nota_completa/paquetes_0.jpg"); 
     margin-left: 74px;
-    border: 8px yellowgreen
 }
 .I p.II{
-    color: brown; font-family: Arial, Helvetica, sans-serif;
     display: flex;
     font-size: 33px; 
     margin-top: 2rem; margin-bottom: 2rem;
@@ -408,10 +359,8 @@ p.I{
 .comentario1, 
 .comentario2,
 .comentario3 {
-    font-family:Arial, Helvetica, sans-serif;
     text-align:center; margin-top: 1rem;
     background-image: url("../Imagenes/body.jpg");
-    font-size: 20px; 
     align-items: center;
     text-align: center;
 }
@@ -425,7 +374,6 @@ p.I{
     display: grid;
     grid-column: 1 / 5;
     grid-row: 1 / 7;
-    border: 2px solid brown;
     margin-left: 4rem; margin-top: 5rem;
     background-image: url(../Imagenes/Cajonesapilables.jpg);
     transition: all 2s;
@@ -433,8 +381,6 @@ p.I{
 .foto4:hover{
     border-radius:50%;
 -webkit-border-radius:50%;
-box-shadow: 0px 0px 15px 15px #ec731e;
--webkit-box-shadow: 0px 0px 15px 15px #ec731e;
 transform: rotate(360deg);
 -webkit-transform: rotate(360 deg);
 }
@@ -442,7 +388,6 @@ transform: rotate(360deg);
     display: grid;
     grid-column: 6 / 11;
     grid-row: 1 / 10;
-    border: 2px solid brown;
     margin-top: 77px;  margin-bottom: 70px; margin-left: 0rem; 
     background-image: url("../Imagenes/Cuna\ rebatible\ con\ cajon\ 1.jpg");
 }
@@ -450,21 +395,13 @@ transform: rotate(360deg);
     display: grid;
     grid-column: 2 / 4;
     grid-row: 8 / 10;
-    border: 2px solid brown;
     text-align: center; 
-    font-size: 20px; color:black; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 900;
 }
 .comentario5{
     display: grid;
     margin-top: -50px;
-    border: 2px solid brown;
     grid-column: 6 / 11;
     grid-row: 11 / 13;
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif; color: black; 
-    font-weight: 900;
     align-items:center;
     text-align: center;
 }   
@@ -499,7 +436,6 @@ transform-style: preserve-3d;
 }
 ul {
 	list-style: none;
-	font-size:0;
     margin-top: 30px;
     margin-bottom: 30px;
  }
@@ -507,7 +443,6 @@ ul {
 	display: inline-block;
 	width: 20%;
 	position:relative;
-	font-size: 24px
  }
  ul ul {
 	position: absolute;
@@ -525,33 +460,20 @@ nav.contactos{
     flex-direction:center;
     justify-content:center;
     position:sticky; top: 0;
-    font-size: 25px;
     text-align:start;
     }
 .contactos a{
     margin: 1rem 5rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
  }
  form{
-     background-image: url("../Imagenes/fondoformulario.jpg");
+    background-image: url("../Imagenes/fondoformulario.jpg");
     height: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    font-weight: 800;
  }
- div .button{
-     background-color: brown; border-radius: 5px;
-     padding: 6px; color:cornsilk;
-     font-size: 18px; font-weight: 900;
-     font-family: 'Dancing Script', cursive;
- }
- form input,
- form textarea{
-    padding: 4px; background-color: rgb(242, 235, 222);
-    }
 label{
     margin-left: 10px; font-family: 'Dancing Script', cursive;
 }
@@ -578,22 +500,16 @@ img.inicio1_2:hover{
     display: grid;
     grid-column: 2 / 6;
     grid-row: 1 / 3;
-    border: #544a7d 3px solid;
     padding: 1rem 1rem 1rem 1rem;
     margin-top: 3rem;
-    background: linear-gradient(to right, #ffe259, #ffa751); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color:darkviolet;
 }
 h3.aa{
     margin-top: 2rem; 
     margin-left: 33%;
-    font-family: 'Lobster', cursive;
-    font-size:30px;
 }
 footer{
     background-size: cover;
     background-image:url(https://i.pinimg.com/originals/17/9a/ac/179aace94f574635f339e44ffe5fc4cb.jpg);
-    font-family: sans-serif;
     margin-top: 15px;
 }
 .container-principal{
@@ -620,17 +536,12 @@ footer{
         width: 310px;
     }
 }
-.column1 h1{
-    font-size: 28px;
-    color: rgb(9, 9, 242);
-}
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .column1 h1{
         text-align: center;
     }
 }
 .column1 p{
-    font-size: 15px;
     color: rgb(70, 67, 104);
     margin-top: 20px;
     text-align: center;
@@ -644,10 +555,6 @@ footer{
     max-width: 400px;
     margin-top: 25px;
 }
-.column2 h1{
-    font-size: 28px;
-    color: rgb(1, 1, 253);
-}
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .column2 h1{
         text-align: center;
@@ -657,7 +564,7 @@ footer{
     display: flex;
     margin-top: 20px;
 }
-@mixin sizes ($width, $height){
+@mixin sizes ($width, $height){ /*aplicado en el footer*/
     width: $width;
     height: $height;
 }
@@ -679,8 +586,6 @@ footer{
     margin-top: 25px;
 }
 .column3 h1{
-    font-size: 28px;
-    color: rgb(0, 0, 255);
     margin-top: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -722,8 +627,6 @@ section{
     object-fit: scale-down;
     height: 75vh;
     width: 100%;
-    background-color: #f39f86;
-    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%); 
 }
 img.navbar-brand{
     width: 160px; height: 165px;
@@ -762,21 +665,9 @@ img.navbar-brand{
        margin-left: 100px;
     }
 }
-a.nav-link{
-    font-family:'Zen Dots';
-    font-size: 30px;
-}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     a.nav-link{
         margin-left: 163px;
-        font-size: 23px;
-        color: blue;
-    }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    a.nav-link{
-        font-size: 21px;
-        color: blue;
     }
 }
 nav.navbar{
@@ -786,20 +677,12 @@ nav.navbar{
     width: 100%; height: 165px;
 }
 .navbar-text{
-    font-family:'Zen Dots';
-    font-size: 25px;
     margin-left: 79px;
     text-align: center;
-    text-shadow: 2px -2px 1px blue;
 }  
 @media screen and (min-width: 320px) and (max-width: 767px) {
     span.navbar-text{
         margin-left: 1px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .navbar-text{
-        font-size: 18px;
     }
 }
 img.shadow{
@@ -813,32 +696,104 @@ div.card{
 }
 h5.card-title{
     text-align: center;
-    font-family: 'Zen Dots';
-    font-size: 25px;
-    color: #ec731e;
 }
 p.card-text{
     text-align: center;
-    font-family: 'Zen Dots';
-    font-size: 20px;
     line-height: 18px;
 }
 p small.text-muted{
     text-align: left;
-    font-size: 14px;
 }
 .ir-arriba {
 	display:none;
 	padding:20px;
-	background:#024959;
-	font-size:20px;
-	color:#fff;
 	cursor:pointer;
 	position: fixed;
 	bottom:20px;
 	right:20px;
 }
-
-
-
-    
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .contenedor{
+        max-width: 1000px;
+    	width: 90%;
+	    margin: 0 auto;
+    }
+}
+.tarjeta {
+    margin-top: 15px;
+    height: 350px;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px; 
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tarjeta{
+        height: 400px;
+        display: block;
+        margin-top: 4px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .tarjeta{
+        height: 415px;
+    }
+}
+.tarjeta__img {
+	width: 260px;
+	height: 165px;
+	margin-right: 30px;
+    border-radius: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tarjeta__img{
+        width: 100px;
+        height: 75px;
+        margin-left: 75px;
+        padding-top: 2px;
+        display: none;
+    }
+}
+.tarjeta__titulo {
+    color: brown;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tarjeta__titulo{
+        margin-top: 5px;
+    }
+}
+.tarjeta__parrafo {
+	line-height: 28px;
+    text-align: center;
+}
+.tarjeta__parrafo-interno{
+    margin-bottom: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tarjeta__parrafo-interno{
+    }
+}
+.boton{
+	height: 60px;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+    border-radius: 10px;
+}
+.boton--derecha {
+	position: absolute;
+	right: 20px;
+	bottom: -25px;
+}
+.row label,
+.row2 label{
+    font-size: 22px;
+    font-weight: 300;
+}
